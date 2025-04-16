@@ -17,7 +17,7 @@ fetch('http://localhost:3000/contacts')
 
             h2Name.textContent = item["name"];
             pMail.textContent = item["email"];
-            pPhone.textContent = item["phone"
+            pPhone.textContent = item["phone".
 
             divPhoneMail.append(pPhone, pMail);
             divContact.append(h2Name, divPhoneMail);
